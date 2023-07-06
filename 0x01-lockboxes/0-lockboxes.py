@@ -6,4 +6,4 @@ def canUnlockAll(boxes):
     keys = set()
     for sublist in boxes:
         keys.update(sublist)
-    return len(keys) == len(boxex)
+    return len(keys) == len(boxes)
